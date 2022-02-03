@@ -5,3 +5,5 @@ The file_to_create_student_schema & file_to_populate_tables are useful to get pa
 The exercise statements can be found at the end of each labY, and the possible solutions are in the files EmanuelKokovicsX, which I am to lazy to rename now, but X (number) in the solution names doesn't necessarily coincide with the Y (number) of the lab names.
 
 Don't be lazy like me!
+
+PS: I used a virtual machine and did not install Oracle on my computer!
