@@ -1,0 +1,225 @@
+BEGIN
+INSERT INTO ZIPCODE(zip, city, state, created_by, created_date, modified_by, modified_date)
+VALUES ('30025', 'Timisoara', 'RO','Kokovics','01-March-2020','Kokovics','01-March-2020');
+
+INSERT INTO ZIPCODE(zip, city, state, created_by, created_date, modified_by, modified_date)
+VALUES ('31125', 'Arad', 'RO','Albu','01-March-2020','Albu','01-March-20');
+
+INSERT INTO ZIPCODE(zip, city, state, created_by, created_date, modified_by, modified_date)
+VALUES ('31025', 'Oradea', 'RO','Kokovics','02-March-2020','Kokovics','18-March-2020');
+
+INSERT INTO ZIPCODE(zip, city, state, created_by, created_date, modified_by, modified_date)
+VALUES ('40025', 'Satu Mare', 'RO','Kokovics','05-March-2020','Kokovics','10-March-2020');
+
+INSERT INTO ZIPCODE(zip, city, state, created_by, created_date, modified_by, modified_date)
+VALUES ('41125', 'Cluj', 'RO','Albu','04-March-2020','Albu','14-March-2020');
+
+INSERT INTO ZIPCODE(zip, city, state, created_by, created_date, modified_by, modified_date)
+VALUES ('42225', 'Sibiu', 'RO','Kokovics','01-March-2020','Kokovics','01-March-2020');
+END;
+
+BEGIN
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (1001, 'Emanuel', 'Kokovics', '30025', '01-March-2020','Kokovics','01-March-2020','Kokovics','01-March-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (1010, 'Ana', 'Pup', '31125', '01-March-2020','Kokovics','01-March-2020','Kokovics','01-March-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (1020, 'Alex', 'Iuga', '31025', '10-April-2020','Kokovics','01-March-2020','Kokovics','01-May-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (1030, 'Emanuel', 'Pop', '40025', '01-January-2019','Albu','01-March-2019','Albu','01-January-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (1080, 'Andrei', 'Opra', '41125', '01-March-2019','Kokovics','01-March-2019','Kokovics','03-April-2019');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (1090, 'Anca', 'Costa', '42225', '01-March-2020','Kokovics','01-March-2020','Kokovics','01-June-2020');
+END;
+
+BEGIN
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (2001, 'Emanuel', 'Koman', '30025', '01-March-2020','Kokovics','01-March-2020','Kokovics','01-March-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (2010, 'Anita', 'Pupu', '31125', '01-March-2020','Kokovics','01-March-2020','Kokovics','01-March-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (2020, 'Alex', 'Duga', '31025', '10-April-2020','Kokovics','01-March-2020','Kokovics','01-May-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (2030, 'Emanuel', 'Popa', '40025', '01-January-2019','Albu','01-March-2019','Albu','01-January-2020');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (2080, 'Andra', 'Opra', '41125', '01-March-2019','Kokovics','01-March-2019','Kokovics','03-April-2019');
+
+INSERT INTO STUDENT(student_id, first_name, last_name, zip, registration_date, created_by, created_date, modified_by, modified_date)
+VALUES (2090, 'Cosmin', 'Costa', '42225', '01-March-2020','Kokovics','01-March-2020','Kokovics','01-June-2020');
+END;
+
+
+BEGIN
+INSERT INTO INSTRUCTOR(instructor_id, first_name, last_name, zip, created_by, created_date, modified_by, modified_date)
+VALUES (1010, 'Anca', 'Pup', '31125','Kokovics','01-March-2020','Kokovics','01-March-2020');
+INSERT INTO INSTRUCTOR(instructor_id, first_name, last_name, zip, created_by, created_date, modified_by, modified_date)
+VALUES (1020, 'Alexa', 'Iuga', '31025','Kokovics','01-March-2020','Kokovics','01-May-2020');
+INSERT INTO INSTRUCTOR(instructor_id, first_name, last_name, zip, created_by, created_date, modified_by, modified_date)
+VALUES (1030, 'Ema', 'Pop', '40025','Albu','01-March-2019','Albu','01-January-2020');
+INSERT INTO INSTRUCTOR(instructor_id, first_name, last_name, zip, created_by, created_date, modified_by, modified_date)
+VALUES (1080, 'Andrei', 'Opra', '41125','Kokovics','01-March-2019','Kokovics','03-April-2019');
+INSERT INTO INSTRUCTOR(instructor_id, first_name, last_name, zip, created_by, created_date, modified_by, modified_date)
+VALUES (1090, 'Maria', 'Costa', '42225','Kokovics','01-March-2020','Kokovics','01-June-2020');
+END;
+
+BEGIN
+INSERT INTO COURSE(course_no, description, created_by, created_date, modified_by, modified_date)
+VALUES (11010, 'Data Bases 2','Kokovics','01-March-2020','Kokovics','01-March-2020');
+INSERT INTO COURSE(course_no, description, created_by, created_date, modified_by, modified_date)
+VALUES (11020, 'Probabilities','Kokovics','01-March-2020','Kokovics','01-May-2020');
+INSERT INTO COURSE(course_no, description, created_by, created_date, modified_by, modified_date)
+VALUES (11030, 'Statistics','Albu','01-March-2019','Albu','01-January-2020');
+INSERT INTO COURSE(course_no, description, created_by, created_date, modified_by, modified_date)
+VALUES (11080, 'Computer Networks','Kokovics','01-March-2019','Kokovics','03-April-2019');
+INSERT INTO COURSE(course_no, description, created_by, created_date, modified_by, modified_date)
+VALUES (11090, 'Software Engineering','Kokovics','01-March-2020','Kokovics','01-June-2020');
+END;
+
+BEGIN
+INSERT INTO SECTION(section_id,course_no, section_no, instructor_id, created_by, created_date, modified_by, modified_date)
+VALUES (311010,11010, 10, 1010,'Kokovics','01-March-2020','Kokovics','01-March-2020');
+INSERT INTO SECTION(section_id,course_no, section_no, instructor_id, created_by, created_date, modified_by, modified_date)
+VALUES (31020,11020, 20, 1020,'Kokovics','01-March-2020','Kokovics','01-May-2020');
+INSERT INTO SECTION(section_id,course_no, section_no, instructor_id, created_by, created_date, modified_by, modified_date)
+VALUES (311030,11030, 30, 1030,'Albu','01-March-2019','Albu','01-January-2020');
+INSERT INTO SECTION(section_id,course_no, section_no, instructor_id, created_by, created_date, modified_by, modified_date)
+VALUES (311080,11080, 80, 1080,'Kokovics','01-March-2019','Kokovics','03-April-2019');
+INSERT INTO SECTION(section_id,course_no, section_no, instructor_id, created_by, created_date, modified_by, modified_date)
+VALUES (311090,11090, 90, 1090,'Kokovics','01-March-2020','Kokovics','01-June-2020');
+END;
+
+BEGIN
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (1001, 311010, '01-March-2019','Kokovics','01-March-2020','Kokovics','01-March-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (1010, 311010, '01-March-2019','Kokovics','01-March-2020','Kokovics','01-March-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (1020, 311020, '01-January-2019','Kokovics','01-March-2020','Kokovics','01-May-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (1030, 311030, '01-April-2019','Albu','01-March-2019','Albu','01-January-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (1080, 311080, '01-June-2019','Kokovics','01-March-2019','Kokovics','03-April-2019');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (1090, 311090, '01-March-2019','Kokovics','01-March-2020','Kokovics','01-June-2020');
+END;
+
+BEGIN
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (2001, 311010, '01-March-2019','Kokovics','01-March-2020','Kokovics','01-March-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (2010, 311010, '01-March-2019','Kokovics','01-March-2020','Kokovics','01-March-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (2020, 311010, '01-January-2019','Kokovics','01-March-2020','Kokovics','01-May-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (2030, 311030, '01-April-2019','Albu','01-March-2019','Albu','01-January-2020');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (2080, 311030, '01-June-2019','Kokovics','01-March-2019','Kokovics','03-April-2019');
+INSERT INTO ENROLLMENT(student_id,section_id,enroll_date, created_by, created_date, modified_by, modified_date)
+VALUES (2090, 311090, '01-March-2019','Kokovics','01-March-2020','Kokovics','01-June-2020');
+END;
+
+
+INSERT INTO GRADE_TYPE(GRADE_TYPE_CODE, DESCRIPTION, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('MT', 'Midterm', 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+INSERT INTO GRADE_TYPE(GRADE_TYPE_CODE, DESCRIPTION, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('HW', 'Homework', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020');
+INSERT INTO GRADE_TYPE(GRADE_TYPE_CODE, DESCRIPTION, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('EX', 'Exam', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020');
+INSERT INTO GRADE_TYPE(GRADE_TYPE_CODE, DESCRIPTION, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('CL', 'Colloquium', 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(31020, 'CL', 1, 40, 'N', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020' );
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(31020, 'MT', 1, 30, 'N', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020' );
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(31020, 'HW', 1, 30, 'N', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020' );
+
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311030, 'EX', 1, 60, 'N', 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311030, 'MT', 1, 30, 'N', 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311030, 'HW', 1, 10, 'N', 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311080, 'EX', 1, 40, 'N', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020' );
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311080, 'MT', 1, 20, 'N', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020' );
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311080, 'HW', 1, 40, 'N', 'Albu', '06-April-2020', 'Albu' ,'06-April-2020' );
+
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311090, 'CL', 1, 50, 'N', 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_TYPE_WEIGHT(SECTION_ID, GRADE_TYPE_CODE, NUMBER_PER_SECTION, PERCENT_OF_FINAL_GRADE, DROP_LOWEST, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(311090, 'HW', 1, 50, 'N', 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1010, 311010, 'EX', 10000 , 40, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1010, 311010, 'MT', 20000 , 30, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1010, 311010, 'HW', 30000 , 30, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1001, 311010, 'EX', 10000 , 40, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1001, 311010, 'MT', 20000 , 30, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1001, 311010, 'HW', 30000 , 30, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1020, 311020, 'CL', 11000 , 40, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1020, 311020, 'MT', 22000 , 30, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1020, 311020, 'HW', 33000 , 30, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1030, 311030, 'CL', 11100 , 60, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1030, 311030, 'MT', 22200 , 30, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1030, 311030, 'HW', 33300 , 10, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1080, 311080, 'CL', 11110 , 40, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1080, 311080, 'MT', 22220 , 20, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1080, 311080, 'HW', 33330 , 40, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1090, 311090, 'CL', 11111 , 50, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020');
+INSERT INTO GRADE(STUDENT_ID, SECTION_ID, GRADE_TYPE_CODE, GRADE_CODE_OCCURRENCE, NUMERIC_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES(1090, 311090, 'HW', 22222 , 50, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('A', 4, 100, 95, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('A-', 3.5 , 94 , 90, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('B', 3, 89, 85, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('B-', 2.5, 84, 80, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('C', 2, 79, 75, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('C-', 1.5, 74, 70, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('D', 1, 69, 65, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('D-', 1, 64, 50, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
+INSERT INTO GRADE_CONVERSION(LETTER_GRADE, GRADE_POINT, MAX_GRADE, MIN_GRADE, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE)
+VALUES('F', 0, 50, 0, 'Kokovics', '06-April-2020', 'Kokovics' ,'06-April-2020' );
